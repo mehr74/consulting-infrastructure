@@ -13,7 +13,7 @@ terraform {
     key            = "web/tfstate"
     region         = "eu-central-1"
     encrypt        = true
-    dynamodb_table = "consulting-terraform-state-lock"
+    dynamodb_table = "consulting-terraform-lock"
   }
 }
 
