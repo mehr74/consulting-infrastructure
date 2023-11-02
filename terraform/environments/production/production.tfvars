@@ -1,14 +1,14 @@
 bucket_paths = [
   {
-    "bucket": "consulting-production-main",
+    "bucket": "consulting-main",
     "path": "/"
   },
   {
-    "bucket": "consulting-production-blog",
+    "bucket": "consulting-blog",
     "path": "/blog"
   },
   {
-    "bucket": "consulting-production-training",
+    "bucket": "consulting-training",
     "path": "/training"
   }
 ]
