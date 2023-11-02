@@ -9,6 +9,10 @@ variable "tags" {
   type = map(string)
 }
 
+variable "root_url" {
+  type = string
+}
+
 variable "url" {
   type = string
 }

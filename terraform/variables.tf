@@ -27,6 +27,11 @@ variable "tags" {
   }
 }
 
+variable "root_url" {
+  type = string
+  default = "coachcrew.tech."
+}
+
 variable "url" {
   type = string
   default = "consulting.coachcrew.tech"
