@@ -18,3 +18,21 @@ variable "buckets_paths" {
     }
   ]
 }
+
+variable "tags" {
+  type = map(string)
+  default = {
+    Name = "consulting"
+    Environment = "dev"
+  }
+}
+
+variable "url" {
+  type = string
+  default = "consulting.coachcrew.tech"
+}
+
+variable "region"  {
+  type = string
+  default = "eu-central-1" 
+}

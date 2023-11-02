@@ -12,3 +12,8 @@ bucket_paths = [
     "path": "/training"
   }
 ]
+
+tags = [
+  Name = "consulting-production",
+  Environment = "production"
+]
