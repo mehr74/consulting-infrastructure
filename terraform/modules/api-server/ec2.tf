@@ -1,17 +1,3 @@
-resource "aws_vpc" "api-server" {
-  cidr_block = "172.16.0.0/16"
-
-  tags = var.tags
-}
-
-resource "aws_subnet" "api-server" {
-  vpc_id            = aws_vpc.api-server.id
-  cidr_block        = "172.16.10.0/24"
-  availability_zone = var.availability_zone
-
-  tags = var.tags
-}
-
 data "aws_ami" "amzn-linux-2023-ami" {
   most_recent = true
   owners      = ["amazon"]
